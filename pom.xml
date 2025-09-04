@@ -1,0 +1,21 @@
+important parts of pom.xml
+--- a/file:///home/nasandratra/EXAMEN-FINAL-POO-/pom.xml
++++ b/file:///home/nasandratra/EXAMEN-FINAL-POO-/pom.xml
+@@ -20,6 +20,12 @@
+
+
+
+<dependencies>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.9.2</version>
+        <scope>Test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.9.2</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
